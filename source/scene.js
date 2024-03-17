@@ -1,4 +1,4 @@
-import GUI from "lil-gui"
+import GUI from "../node_modules/lil-gui"
 import {
   AmbientLight,
   AxesHelper,
@@ -16,11 +16,11 @@ import {
   PointLightHelper,
   Scene,
   WebGLRenderer
-} from "three"
-import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js"
-import { DragControls } from "three/examples/jsm/controls/DragControls"
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls"
-import Stats from "three/examples/jsm/libs/stats.module"
+} from "../node_modules/three"
+import { GLTFLoader } from "../node_modules/three/examples/jsm/loaders/GLTFLoader.js"
+import { DragControls } from "../node_modules/three/examples/jsm/controls/DragControls"
+import { OrbitControls } from "../node_modules/three/examples/jsm/controls/OrbitControls"
+import Stats from "../node_modules/three/examples/jsm/libs/stats.module"
 import * as animations from "./helpers/animations"
 import { toggleFullScreen } from "./helpers/fullscreen"
 import { resizeRendererToDisplaySize } from "./helpers/responsiveness"
